@@ -301,7 +301,7 @@ Transform:
   m_GameObject: {fileID: 41349113984643973}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -79.07, y: 1.79, z: 0}
+  m_LocalPosition: {x: -79.25, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -318,8 +318,8 @@ GameObject:
   - component: {fileID: 3024265716008109641}
   - component: {fileID: 3746268287075428128}
   - component: {fileID: 9200697333360905416}
-  - component: {fileID: 7503214478313760723}
   - component: {fileID: 8166482593521177672}
+  - component: {fileID: 4492920215308686996}
   m_Layer: 0
   m_Name: Collectables_0 (11)
   m_TagString: Untagged
@@ -423,19 +423,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &7503214478313760723
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 72602501264163206}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &8166482593521177672
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -472,6 +459,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &4492920215308686996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72602501264163206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &140649567234176549
 GameObject:
   m_ObjectHideFlags: 0
@@ -850,8 +849,8 @@ GameObject:
   - component: {fileID: 3182222323346004215}
   - component: {fileID: 1052702687493532887}
   - component: {fileID: 3340967761123801510}
-  - component: {fileID: 7928070423269171976}
   - component: {fileID: 6314468365767581982}
+  - component: {fileID: 8014433633291206739}
   m_Layer: 0
   m_Name: Collectables_0 (25)
   m_TagString: Untagged
@@ -955,19 +954,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &7928070423269171976
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 250178131542194979}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &6314468365767581982
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1004,6 +990,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &8014433633291206739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250178131542194979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &312909659772810370
 GameObject:
   m_ObjectHideFlags: 0
@@ -1015,8 +1013,8 @@ GameObject:
   - component: {fileID: 3395799926465411364}
   - component: {fileID: 2325921622731164170}
   - component: {fileID: 3402421513948157196}
-  - component: {fileID: 680129844117020547}
   - component: {fileID: 5636375121530945329}
+  - component: {fileID: 31855229058937580}
   m_Layer: 0
   m_Name: Collectables_0 (35)
   m_TagString: Untagged
@@ -1120,19 +1118,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &680129844117020547
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 312909659772810370}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &5636375121530945329
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1169,6 +1154,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &31855229058937580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312909659772810370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &333263203636715182
 GameObject:
   m_ObjectHideFlags: 0
@@ -1456,8 +1453,8 @@ GameObject:
   - component: {fileID: 5625144029030352744}
   - component: {fileID: 6668956217217316664}
   - component: {fileID: 5166127079929537132}
-  - component: {fileID: 877197967829843821}
   - component: {fileID: 4602895370479135713}
+  - component: {fileID: 1413665286820248583}
   m_Layer: 0
   m_Name: Collectables_0 (16)
   m_TagString: Untagged
@@ -1561,19 +1558,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &877197967829843821
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 483795188319832938}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &4602895370479135713
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1610,6 +1594,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &1413665286820248583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483795188319832938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &607666356315220284
 GameObject:
   m_ObjectHideFlags: 0
@@ -2587,8 +2583,8 @@ GameObject:
   - component: {fileID: 4866126694179978338}
   - component: {fileID: 317821267601892803}
   - component: {fileID: 3544291687400933150}
-  - component: {fileID: 1318276955622649256}
   - component: {fileID: 6195457557424977532}
+  - component: {fileID: 6689897895239789872}
   m_Layer: 0
   m_Name: Collectables_0 (3)
   m_TagString: Untagged
@@ -2692,19 +2688,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1318276955622649256
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1069774403624447462}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &6195457557424977532
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2741,6 +2724,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &6689897895239789872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069774403624447462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &1124227759595356641
 GameObject:
   m_ObjectHideFlags: 0
@@ -2752,8 +2747,8 @@ GameObject:
   - component: {fileID: 1126948482141881221}
   - component: {fileID: 2992608955441427109}
   - component: {fileID: 6791863951581518753}
-  - component: {fileID: 7084888771054774841}
   - component: {fileID: 1526198216128406822}
+  - component: {fileID: 8571709562523382352}
   m_Layer: 0
   m_Name: Collectables_0 (29)
   m_TagString: Untagged
@@ -2857,19 +2852,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &7084888771054774841
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1124227759595356641}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &1526198216128406822
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2906,6 +2888,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &8571709562523382352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124227759595356641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &1168563343313252413
 GameObject:
   m_ObjectHideFlags: 0
@@ -3107,8 +3101,8 @@ GameObject:
   - component: {fileID: 247881658454488805}
   - component: {fileID: 8688323746262517115}
   - component: {fileID: 2008351515623862288}
-  - component: {fileID: 8147383459094641426}
   - component: {fileID: 274202377689201093}
+  - component: {fileID: 5080429128242988775}
   m_Layer: 0
   m_Name: Collectables_0 (20)
   m_TagString: Untagged
@@ -3212,19 +3206,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &8147383459094641426
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1220407559220735326}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &274202377689201093
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3261,6 +3242,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &5080429128242988775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220407559220735326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &1357725017991922848
 GameObject:
   m_ObjectHideFlags: 0
@@ -3272,8 +3265,8 @@ GameObject:
   - component: {fileID: 289416223046583752}
   - component: {fileID: 5785282273782503934}
   - component: {fileID: 2539510808969864458}
-  - component: {fileID: 3217784067019326860}
   - component: {fileID: 2614462560898977774}
+  - component: {fileID: 3883314003649577846}
   m_Layer: 0
   m_Name: Collectables_0 (26)
   m_TagString: Untagged
@@ -3377,19 +3370,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &3217784067019326860
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1357725017991922848}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &2614462560898977774
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3426,6 +3406,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &3883314003649577846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357725017991922848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &1371266882550330407
 GameObject:
   m_ObjectHideFlags: 0
@@ -4195,8 +4187,8 @@ GameObject:
   - component: {fileID: 5249454988015971713}
   - component: {fileID: 2547391880599500653}
   - component: {fileID: 3818037079736591173}
-  - component: {fileID: 3921269470537834481}
   - component: {fileID: 1474238816600618916}
+  - component: {fileID: 4703632092880679385}
   m_Layer: 0
   m_Name: Collectables_0 (27)
   m_TagString: Untagged
@@ -4300,19 +4292,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &3921269470537834481
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1581014180426290986}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &1474238816600618916
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4349,6 +4328,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &4703632092880679385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581014180426290986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &1672693653582654851
 GameObject:
   m_ObjectHideFlags: 0
@@ -4360,8 +4351,8 @@ GameObject:
   - component: {fileID: 3700385096513456179}
   - component: {fileID: 7642878535678978428}
   - component: {fileID: 3775454908012338835}
-  - component: {fileID: 4343050710008709857}
   - component: {fileID: 2813550559936569127}
+  - component: {fileID: 339394984254874724}
   m_Layer: 0
   m_Name: Collectables_0 (31)
   m_TagString: Untagged
@@ -4465,19 +4456,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &4343050710008709857
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1672693653582654851}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &2813550559936569127
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4514,6 +4492,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &339394984254874724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672693653582654851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &1698275890166426021
 GameObject:
   m_ObjectHideFlags: 0
@@ -4939,8 +4929,8 @@ GameObject:
   - component: {fileID: 6183887735795685752}
   - component: {fileID: 4903378733097783440}
   - component: {fileID: 6403666785586676665}
-  - component: {fileID: 5229093701331426198}
   - component: {fileID: 2182581476833464177}
+  - component: {fileID: 4121603766032490526}
   m_Layer: 0
   m_Name: Collectables_0 (19)
   m_TagString: Untagged
@@ -5044,19 +5034,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &5229093701331426198
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1860678689166076553}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &2182581476833464177
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5093,6 +5070,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &4121603766032490526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860678689166076553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &1865035417486691045
 GameObject:
   m_ObjectHideFlags: 0
@@ -5104,8 +5093,8 @@ GameObject:
   - component: {fileID: 4109399412071126867}
   - component: {fileID: 3619490427960664542}
   - component: {fileID: 1090139408874251004}
-  - component: {fileID: 6291941971002767239}
   - component: {fileID: 8716151141950307816}
+  - component: {fileID: 4784576645362785518}
   m_Layer: 0
   m_Name: Collectables_0 (15)
   m_TagString: Untagged
@@ -5209,19 +5198,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &6291941971002767239
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1865035417486691045}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &8716151141950307816
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5258,6 +5234,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &4784576645362785518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865035417486691045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &1884319939663501583
 GameObject:
   m_ObjectHideFlags: 0
@@ -5407,8 +5395,8 @@ GameObject:
   - component: {fileID: 4868137246892732180}
   - component: {fileID: 7490810317367407198}
   - component: {fileID: 1549231535669866347}
-  - component: {fileID: 6700166582223232706}
   - component: {fileID: 504530391889170443}
+  - component: {fileID: 8537887800748800500}
   m_Layer: 0
   m_Name: Collectables_0 (32)
   m_TagString: Untagged
@@ -5512,19 +5500,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &6700166582223232706
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2134019493433576479}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &504530391889170443
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5561,6 +5536,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &8537887800748800500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134019493433576479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &2163640167356237697
 GameObject:
   m_ObjectHideFlags: 0
@@ -5986,8 +5973,8 @@ GameObject:
   - component: {fileID: 8863481640136878810}
   - component: {fileID: 4468672195951454532}
   - component: {fileID: 6441379100040124709}
-  - component: {fileID: 4641973351049218219}
   - component: {fileID: 6665610474489325229}
+  - component: {fileID: 6981567968624994880}
   m_Layer: 0
   m_Name: Collectables_0 (24)
   m_TagString: Untagged
@@ -6091,19 +6078,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &4641973351049218219
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2305017228231103089}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &6665610474489325229
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6140,6 +6114,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &6981567968624994880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2305017228231103089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &2460590830174683367
 GameObject:
   m_ObjectHideFlags: 0
@@ -6289,8 +6275,8 @@ GameObject:
   - component: {fileID: 7988766085981851507}
   - component: {fileID: 2968743920315389650}
   - component: {fileID: 2050794370849928207}
-  - component: {fileID: 4544499224753921721}
   - component: {fileID: 8692114188913689965}
+  - component: {fileID: 3227971178635427220}
   m_Layer: 0
   m_Name: Collectables_0 (4)
   m_TagString: Untagged
@@ -6394,19 +6380,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &4544499224753921721
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2558785906006908663}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &8692114188913689965
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6443,6 +6416,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &3227971178635427220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2558785906006908663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &2637262966605641069
 GameObject:
   m_ObjectHideFlags: 0
@@ -7144,8 +7129,8 @@ GameObject:
   - component: {fileID: 7653529823167628823}
   - component: {fileID: 3303417139890675638}
   - component: {fileID: 1774103940539907435}
-  - component: {fileID: 4321851766902609885}
   - component: {fileID: 8956418801687350281}
+  - component: {fileID: 5702212525545798693}
   m_Layer: 0
   m_Name: Collectables_0 (7)
   m_TagString: Untagged
@@ -7249,19 +7234,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &4321851766902609885
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2839979737662642067}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &8956418801687350281
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7298,6 +7270,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &5702212525545798693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2839979737662642067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &2873166246589924931
 GameObject:
   m_ObjectHideFlags: 0
@@ -7999,8 +7983,8 @@ GameObject:
   - component: {fileID: 197472141995023897}
   - component: {fileID: 8232325727393696371}
   - component: {fileID: 1022865609894618067}
-  - component: {fileID: 6398351962924287373}
   - component: {fileID: 6602306969557294697}
+  - component: {fileID: 8172464576534349502}
   m_Layer: 0
   m_Name: Collectables_0 (21)
   m_TagString: Untagged
@@ -8104,19 +8088,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &6398351962924287373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3091329925943045624}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &6602306969557294697
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8153,6 +8124,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &8172464576534349502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3091329925943045624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &3121652851943036318
 GameObject:
   m_ObjectHideFlags: 0
@@ -8164,8 +8147,8 @@ GameObject:
   - component: {fileID: 5461005928533569877}
   - component: {fileID: 8022558797541537897}
   - component: {fileID: 1581880519853473025}
-  - component: {fileID: 6897390909099616594}
   - component: {fileID: 8044016566521753458}
+  - component: {fileID: 8657180099870397507}
   m_Layer: 0
   m_Name: Collectables_0 (14)
   m_TagString: Untagged
@@ -8269,19 +8252,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &6897390909099616594
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3121652851943036318}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &8044016566521753458
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8318,6 +8288,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &8657180099870397507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3121652851943036318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &3153865911612294994
 GameObject:
   m_ObjectHideFlags: 0
@@ -8467,8 +8449,8 @@ GameObject:
   - component: {fileID: 5828529940690314286}
   - component: {fileID: 4710543142904685316}
   - component: {fileID: 2530887420469143210}
-  - component: {fileID: 2830094900075833342}
   - component: {fileID: 8092692159515297841}
+  - component: {fileID: 8188631709067565755}
   m_Layer: 0
   m_Name: Collectables_0 (10)
   m_TagString: Untagged
@@ -8572,19 +8554,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &2830094900075833342
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3213606635413873900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &8092692159515297841
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8621,6 +8590,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &8188631709067565755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3213606635413873900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &3314255437111732081
 GameObject:
   m_ObjectHideFlags: 0
@@ -9736,8 +9717,8 @@ GameObject:
   - component: {fileID: 8758462094812009092}
   - component: {fileID: 4495325179335101221}
   - component: {fileID: 802872385920166392}
-  - component: {fileID: 2900546053845697358}
   - component: {fileID: 8066252040353470618}
+  - component: {fileID: 1041446749848277350}
   m_Layer: 0
   m_Name: Collectables_0 (8)
   m_TagString: Untagged
@@ -9841,19 +9822,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &2900546053845697358
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3806421888353026816}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &8066252040353470618
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9890,6 +9858,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &1041446749848277350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3806421888353026816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &3843910307183973983
 GameObject:
   m_ObjectHideFlags: 0
@@ -9901,8 +9881,8 @@ GameObject:
   - component: {fileID: 8648950166786295771}
   - component: {fileID: 4605470385788903034}
   - component: {fileID: 769852387159047335}
-  - component: {fileID: 3011711607626946065}
   - component: {fileID: 7960787419482934725}
+  - component: {fileID: 779499921924040363}
   m_Layer: 0
   m_Name: Collectables_0 (5)
   m_TagString: Untagged
@@ -10006,19 +9986,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &3011711607626946065
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3843910307183973983}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &7960787419482934725
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10055,6 +10022,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &779499921924040363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3843910307183973983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &3890036907500609921
 GameObject:
   m_ObjectHideFlags: 0
@@ -10342,8 +10321,8 @@ GameObject:
   - component: {fileID: 8464765633759184946}
   - component: {fileID: 3645162310080369043}
   - component: {fileID: 563175965109597006}
-  - component: {fileID: 2644847615702374904}
   - component: {fileID: 7135312450388296236}
+  - component: {fileID: 826914777053450462}
   m_Layer: 0
   m_Name: Collectables_0 (1)
   m_TagString: Untagged
@@ -10447,19 +10426,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &2644847615702374904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4046358003225794998}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &7135312450388296236
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10496,6 +10462,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &826914777053450462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4046358003225794998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &4047953360282165866
 GameObject:
   m_ObjectHideFlags: 0
@@ -11059,8 +11037,8 @@ GameObject:
   - component: {fileID: 3188883235232519615}
   - component: {fileID: 8002555854108982633}
   - component: {fileID: 5045372012562489359}
-  - component: {fileID: 3583318139284892599}
   - component: {fileID: 3005596024187331785}
+  - component: {fileID: 3643671433722433905}
   m_Layer: 0
   m_Name: Collectables_0 (34)
   m_TagString: Untagged
@@ -11164,19 +11142,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &3583318139284892599
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4873960702470939621}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &3005596024187331785
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11213,6 +11178,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &3643671433722433905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4873960702470939621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &4874969460789138513
 GameObject:
   m_ObjectHideFlags: 0
@@ -12190,8 +12167,8 @@ GameObject:
   - component: {fileID: 2438084819277345456}
   - component: {fileID: 4095024538381762089}
   - component: {fileID: 257825107083841953}
-  - component: {fileID: 4197075611971732112}
   - component: {fileID: 3448896479779772560}
+  - component: {fileID: 5101056151581401815}
   m_Layer: 0
   m_Name: Collectables_0 (12)
   m_TagString: Untagged
@@ -12295,19 +12272,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &4197075611971732112
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5559281416735742662}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &3448896479779772560
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12344,6 +12308,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &5101056151581401815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5559281416735742662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &5561337326603897898
 GameObject:
   m_ObjectHideFlags: 0
@@ -12783,8 +12759,8 @@ GameObject:
   - component: {fileID: 7410644271146234600}
   - component: {fileID: 5696734658208803922}
   - component: {fileID: 7715420266722517346}
-  - component: {fileID: 8899304117510884719}
   - component: {fileID: 4497500386184716571}
+  - component: {fileID: 1844125072417166953}
   m_Layer: 0
   m_Name: Collectables_0 (13)
   m_TagString: Untagged
@@ -12888,19 +12864,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &8899304117510884719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5742460998591253092}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &4497500386184716571
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12937,6 +12900,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &1844125072417166953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5742460998591253092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &5787299419093298995
 GameObject:
   m_ObjectHideFlags: 0
@@ -13362,8 +13337,8 @@ GameObject:
   - component: {fileID: 1210762768826737722}
   - component: {fileID: 1470457162247591436}
   - component: {fileID: 8536175166248645270}
-  - component: {fileID: 1772606350480914236}
   - component: {fileID: 5008222604722293640}
+  - component: {fileID: 8121481932029714626}
   m_Layer: 0
   m_Name: Collectables_0 (18)
   m_TagString: Untagged
@@ -13467,19 +13442,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1772606350480914236
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6030342530574857061}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &5008222604722293640
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13516,6 +13478,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &8121481932029714626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6030342530574857061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &6036826687824316506
 GameObject:
   m_ObjectHideFlags: 0
@@ -13965,8 +13939,8 @@ GameObject:
   - component: {fileID: 1952833787156511485}
   - component: {fileID: 6698839788201780060}
   - component: {fileID: 7616137872681959809}
-  - component: {fileID: 5392315504809749303}
   - component: {fileID: 965037348514410723}
+  - component: {fileID: 7595064582420646014}
   m_Layer: 0
   m_Name: Collectables_0 (2)
   m_TagString: Untagged
@@ -14070,19 +14044,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &5392315504809749303
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6216856099521014649}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &965037348514410723
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14119,6 +14080,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &7595064582420646014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6216856099521014649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &6241778791839299496
 GameObject:
   m_ObjectHideFlags: 0
@@ -14130,8 +14103,8 @@ GameObject:
   - component: {fileID: 1773525208215523391}
   - component: {fileID: 8058411253162580147}
   - component: {fileID: 1745405748084565143}
-  - component: {fileID: 378567607684919456}
   - component: {fileID: 2020690453139527048}
+  - component: {fileID: 5895364716390478474}
   m_Layer: 0
   m_Name: Collectables_0 (36)
   m_TagString: Untagged
@@ -14235,19 +14208,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &378567607684919456
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6241778791839299496}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &2020690453139527048
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14284,6 +14244,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &5895364716390478474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6241778791839299496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &6246937620447715695
 GameObject:
   m_ObjectHideFlags: 0
@@ -14733,8 +14705,8 @@ GameObject:
   - component: {fileID: 2157333738873179275}
   - component: {fileID: 6000917106250812468}
   - component: {fileID: 4780386878120435804}
-  - component: {fileID: 5779429969034009201}
   - component: {fileID: 6696656351238114041}
+  - component: {fileID: 8530666184556109046}
   m_Layer: 0
   m_Name: Collectables_0 (33)
   m_TagString: Untagged
@@ -14838,19 +14810,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &5779429969034009201
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6322907200467896685}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &6696656351238114041
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14887,6 +14846,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &8530666184556109046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6322907200467896685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &6531419189792132194
 GameObject:
   m_ObjectHideFlags: 0
@@ -15817,8 +15788,8 @@ GameObject:
   - component: {fileID: 7530135310748469476}
   - component: {fileID: 5067673355448694856}
   - component: {fileID: 5044558208928227386}
-  - component: {fileID: 7100032717538324290}
   - component: {fileID: 6826160755719990679}
+  - component: {fileID: 900350799106969072}
   m_Layer: 0
   m_Name: Collectables_0 (23)
   m_TagString: Untagged
@@ -15922,19 +15893,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &7100032717538324290
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6905504026036092254}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &6826160755719990679
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15971,6 +15929,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &900350799106969072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6905504026036092254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &6975872805873565364
 GameObject:
   m_ObjectHideFlags: 0
@@ -16332,8 +16302,8 @@ GameObject:
   - component: {fileID: 5783744338686305496}
   - component: {fileID: 2107912084137063983}
   - component: {fileID: 2293684305016966847}
-  - component: {fileID: 594981182415801426}
   - component: {fileID: 1184206819032242263}
+  - component: {fileID: 3340710994521218037}
   m_Layer: 0
   m_Name: Collectables_0 (22)
   m_TagString: Untagged
@@ -16437,19 +16407,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &594981182415801426
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7186827019709302800}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &1184206819032242263
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16486,6 +16443,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &3340710994521218037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7186827019709302800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &7209488644822005073
 GameObject:
   m_ObjectHideFlags: 0
@@ -17187,8 +17156,8 @@ GameObject:
   - component: {fileID: 2817542625035503589}
   - component: {fileID: 6987115636448976452}
   - component: {fileID: 6174930859238423705}
-  - component: {fileID: 8562870717549336111}
   - component: {fileID: 3559171599807860219}
+  - component: {fileID: 2224866115904541638}
   m_Layer: 0
   m_Name: Collectables_0 (6)
   m_TagString: Untagged
@@ -17292,19 +17261,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &8562870717549336111
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7657951437773657697}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &3559171599807860219
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17341,6 +17297,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &2224866115904541638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7657951437773657697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &7722934689461855145
 GameObject:
   m_ObjectHideFlags: 0
@@ -17490,8 +17458,8 @@ GameObject:
   - component: {fileID: 6105168471115383636}
   - component: {fileID: 1864416487584236409}
   - component: {fileID: 5487100724737689146}
-  - component: {fileID: 7825992970329954565}
   - component: {fileID: 9163196018021259635}
+  - component: {fileID: 5191340291312080334}
   m_Layer: 0
   m_Name: Collectables_0 (28)
   m_TagString: Untagged
@@ -17595,19 +17563,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &7825992970329954565
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7762411109420956226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &9163196018021259635
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17644,6 +17599,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &5191340291312080334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7762411109420956226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &7874569031068045786
 GameObject:
   m_ObjectHideFlags: 0
@@ -17669,7 +17636,7 @@ Transform:
   m_GameObject: {fileID: 7874569031068045786}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 84.1, y: 1.9, z: 0}
+  m_LocalPosition: {x: 84.44, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17686,8 +17653,8 @@ GameObject:
   - component: {fileID: 2385885980089867025}
   - component: {fileID: 7828780289526375343}
   - component: {fileID: 1614063966663639214}
-  - component: {fileID: 436178782650143999}
   - component: {fileID: 1358925851383928537}
+  - component: {fileID: 5176217124266850352}
   m_Layer: 0
   m_Name: Collectables_0 (17)
   m_TagString: Untagged
@@ -17791,19 +17758,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &436178782650143999
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7948263820448818206}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &1358925851383928537
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17840,6 +17794,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &5176217124266850352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7948263820448818206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &8131531130715587430
 GameObject:
   m_ObjectHideFlags: 0
@@ -19093,8 +19059,8 @@ GameObject:
   - component: {fileID: 5800364076804556450}
   - component: {fileID: 4434484440583285183}
   - component: {fileID: 4243138122518301708}
-  - component: {fileID: 4889650260487923092}
   - component: {fileID: 5419854823721646905}
+  - component: {fileID: 3206169275588114561}
   m_Layer: 0
   m_Name: Collectables_0 (9)
   m_TagString: Untagged
@@ -19198,19 +19164,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &4889650260487923092
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8616778315587117341}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &5419854823721646905
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19247,6 +19200,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &3206169275588114561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8616778315587117341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &8895805314231488272
 GameObject:
   m_ObjectHideFlags: 0
@@ -19534,8 +19499,8 @@ GameObject:
   - component: {fileID: 1064420149056323792}
   - component: {fileID: 4141834211332794048}
   - component: {fileID: 8595469985332900752}
-  - component: {fileID: 6835097631100511017}
   - component: {fileID: 6654336101213014853}
+  - component: {fileID: 8627187171087758460}
   m_Layer: 0
   m_Name: Collectables_0 (30)
   m_TagString: Untagged
@@ -19639,19 +19604,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &6835097631100511017
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8995157378291300944}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &6654336101213014853
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19688,6 +19640,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &8627187171087758460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8995157378291300944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &9038973989099576991
 GameObject:
   m_ObjectHideFlags: 0
@@ -19699,8 +19663,8 @@ GameObject:
   - component: {fileID: 3472148488244236059}
   - component: {fileID: 8629275218485450426}
   - component: {fileID: 4793978826939348071}
-  - component: {fileID: 7053495997991296721}
   - component: {fileID: 2761505950836884741}
+  - component: {fileID: 9008200630762995375}
   m_Layer: 0
   m_Name: Collectables_0
   m_TagString: Untagged
@@ -19804,19 +19768,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &7053495997991296721
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9038973989099576991}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::coincollect
-  manager: {fileID: 6155678733780956177, guid: 41bc34fe46db9214aafa1765d2451637, type: 3}
 --- !u!58 &2761505950836884741
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19853,6 +19804,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.29999998
+--- !u!114 &9008200630762995375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9038973989099576991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1214a3ec9bb4f45a3852284a932902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::coincollect
 --- !u!1 &9105705304885426538
 GameObject:
   m_ObjectHideFlags: 0

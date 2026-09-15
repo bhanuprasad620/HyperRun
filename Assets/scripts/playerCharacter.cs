@@ -6,13 +6,17 @@ public class playerCharacter : MonoBehaviour
     public Rigidbody2D rb;
     bool isGrounded = true;
     public Animator animator;
-   
+    public AudioSource jumpsound;
+    public AudioClip landsound;
+    private bool wasGrounded;
+    public CoinManager coinManager;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb=GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-       
+        wasGrounded=isGrounded;
     }
 
     // Update is called once per frame
@@ -22,6 +26,13 @@ public class playerCharacter : MonoBehaviour
         {
             Jump();
         }
+        if (isGrounded && !wasGrounded)
+        {
+            jumpsound.PlayOneShot(landsound);
+        }
+
+        wasGrounded = isGrounded;
+        gameOver();
     }
 
     void Jump()
@@ -31,6 +42,7 @@ public class playerCharacter : MonoBehaviour
             isGrounded = false;
             rb.AddForce(Vector2.up * JumpForce, ForceMode2D.Impulse);
             animator.SetTrigger("Jump");
+            jumpsound.Play();
         }
     }
 
@@ -42,4 +54,12 @@ public class playerCharacter : MonoBehaviour
         }
     }
     
+    void gameOver()
+    {
+        if(transform.position.x < -15 || transform.position.y < - 5)
+        {
+            Time.timeScale = 0;
+            coinManager.GameOver();
+        }
+    }
 }   

@@ -2,11 +2,14 @@ using UnityEngine;
 
 public class coincollect : MonoBehaviour
 {
-    public audiomanager manager;
+     audiomanager manager;
+     CoinManager coinmanager;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        manager = FindFirstObjectByType<audiomanager>();
+        coinmanager = FindFirstObjectByType<CoinManager>();
     }
 
     // Update is called once per frame
@@ -23,7 +26,7 @@ public class coincollect : MonoBehaviour
             Destroy(gameObject);
             Debug.Log("Coin collected!");
             manager.playcoin();
-
+            coinmanager.AddCoin();
 
         }
     }
