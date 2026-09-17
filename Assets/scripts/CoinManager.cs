@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class CoinManager : MonoBehaviour
 {
@@ -20,17 +21,22 @@ public class CoinManager : MonoBehaviour
     public GameObject Pause;
     public bool gamePaused;
     public TextMeshProUGUI PauseSymbol;
+
+    public Image pauseButtonimage;
+    public Sprite pauseSprite;
+    public Sprite resumeSprite;
+    public GameObject Iconimage;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        cointext.text = "coin:"+ coins;
+        cointext.text =  coins.ToString();
         scoretext.text = "score :" + score;
     }
 
     public void AddCoin()
     {
         coins++;
-        cointext.text = "coin:" + coins;
+        cointext.text = ":"+coins.ToString();
 
     }
 
@@ -60,8 +66,8 @@ public class CoinManager : MonoBehaviour
     }
     public void UpdateFinalUI()
     {
-        finalScoreText.text = "Score: " + score;
-        finalCoinText.text = "Coins: " + coins;
+        finalScoreText.text = ": " + score.ToString();
+        finalCoinText.text = ": " + coins.ToString();
     }
     public void Restartgame()
     {
@@ -75,19 +81,21 @@ public class CoinManager : MonoBehaviour
         Debug.Log("game Over");
         Pause.SetActive(false);
 
-
+        Iconimage.SetActive(false);
     }
 
     public void gamePause()
     {
         gamePaused = true;
         PausePanel.SetActive(true);
-        PauseSymbol.text = ">";
+        pauseButtonimage.sprite = pauseSprite;
+        Iconimage.SetActive(false);
     }
     public void resumeGame()
     {
         gamePaused = false;
         PausePanel.SetActive(false);
-        PauseSymbol.text = "||";
+        pauseButtonimage.sprite = resumeSprite;
+        Iconimage.SetActive(true);
     }
 }
