@@ -4,15 +4,23 @@ public class audiomanager : MonoBehaviour
 {
     public AudioSource sfxsound;
     public AudioClip coinsound;
+    public AudioClip gameover;
+    public float gameovervolume = 0.3f;
+    public AudioSource stopmusic;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
    
     public void playcoin()
     {
-        Debug.Log("PlayCoin called");
-        Debug.Log("Source enabled: " + sfxsound.enabled);
-        Debug.Log("Source active: " + sfxsound.gameObject.activeInHierarchy);
-        Debug.Log("Source name: " + sfxsound.gameObject.name);
-        sfxsound.PlayOneShot(coinsound);
+        
+        sfxsound.PlayOneShot(coinsound );
+    }
+    public void EndGame()
+    {
+        sfxsound.PlayOneShot(gameover, gameovervolume);
+    }
+    public void stopMusic()
+    {
+        stopmusic.Stop();
     }
     void Start()
     {

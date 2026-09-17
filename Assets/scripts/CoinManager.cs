@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class CoinManager : MonoBehaviour
 {
@@ -13,8 +14,12 @@ public class CoinManager : MonoBehaviour
     public TextMeshProUGUI finalScoreText;
     public TextMeshProUGUI finalCoinText;
     public GameObject gameOverPanel;
-    bool gameOver;
-    
+    public bool gameOver;
+
+    public GameObject PausePanel;
+    public GameObject Pause;
+    public bool gamePaused;
+    public TextMeshProUGUI PauseSymbol;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -32,7 +37,7 @@ public class CoinManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(gameOver)
+        if(gameOver || gamePaused)
         return;
         scoreTimer += Time.deltaTime;
 
@@ -58,10 +63,31 @@ public class CoinManager : MonoBehaviour
         finalScoreText.text = "Score: " + score;
         finalCoinText.text = "Coins: " + coins;
     }
+    public void Restartgame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
     public void GameOver()
     {
         UpdateFinalUI();
         gameOverPanel.SetActive(true);
         gameOver=true;
+        Debug.Log("game Over");
+        Pause.SetActive(false);
+
+
+    }
+
+    public void gamePause()
+    {
+        gamePaused = true;
+        PausePanel.SetActive(true);
+        PauseSymbol.text = ">";
+    }
+    public void resumeGame()
+    {
+        gamePaused = false;
+        PausePanel.SetActive(false);
+        PauseSymbol.text = "||";
     }
 }

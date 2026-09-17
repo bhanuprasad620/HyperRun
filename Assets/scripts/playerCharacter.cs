@@ -10,6 +10,9 @@ public class playerCharacter : MonoBehaviour
     public AudioClip landsound;
     private bool wasGrounded;
     public CoinManager coinManager;
+    audiomanager Audiomanager;
+
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -17,11 +20,16 @@ public class playerCharacter : MonoBehaviour
         rb=GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         wasGrounded=isGrounded;
+        coinManager = FindFirstObjectByType<CoinManager>();
+        Audiomanager = FindFirstObjectByType<audiomanager>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(coinManager.gamePaused || coinManager.gameOver)
+            return;
+        
         if (Input.GetKeyDown(KeyCode.Space)&&isGrounded || Input.GetMouseButton(0))
         {
             Jump();
@@ -29,6 +37,10 @@ public class playerCharacter : MonoBehaviour
         if (isGrounded && !wasGrounded)
         {
             jumpsound.PlayOneShot(landsound);
+        }
+        if(Input.GetKey(KeyCode.LeftShift))
+        {
+            coinManager.gamePause();
         }
 
         wasGrounded = isGrounded;
@@ -58,8 +70,10 @@ public class playerCharacter : MonoBehaviour
     {
         if(transform.position.x < -15 || transform.position.y < - 5)
         {
-            Time.timeScale = 0;
+            
             coinManager.GameOver();
+            Audiomanager.EndGame();
+            Audiomanager.stopMusic();
         }
     }
 }   
