@@ -11,38 +11,41 @@ public class playerCharacter : MonoBehaviour
     private bool wasGrounded;
     public CoinManager coinManager;
     audiomanager Audiomanager;
-
-
-
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb=GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
-        wasGrounded=isGrounded;
+        animator = GetComponentInChildren<Animator>();
+        
+        wasGrounded =isGrounded;
         coinManager = FindFirstObjectByType<CoinManager>();
         Audiomanager = FindFirstObjectByType<audiomanager>();
-    }
 
-    // Update is called once per frame
+    }
+  
     void Update()
     {
         if(coinManager.gamePaused || coinManager.gameOver)
             return;
         
-        if (Input.GetKeyDown(KeyCode.Space)&&isGrounded || Input.GetMouseButton(0))
+        if (Input.GetKeyDown(KeyCode.Space)&&isGrounded || Input.GetMouseButtonDown(0))
         {
             Jump();
+           
         }
         if (isGrounded && !wasGrounded)
         {
+
+          
+            animator.SetBool("IsJump", false);
+
             jumpsound.PlayOneShot(landsound);
         }
         if(Input.GetKey(KeyCode.LeftShift))
         {
             coinManager.gamePause();
         }
-
         wasGrounded = isGrounded;
         gameOver();
     }
@@ -52,9 +55,15 @@ public class playerCharacter : MonoBehaviour
         if (isGrounded)
         {
             isGrounded = false;
-            rb.AddForce(Vector2.up * JumpForce, ForceMode2D.Impulse);
-            animator.SetTrigger("Jump");
+          
+           rb.linearVelocity = new Vector2(rb.linearVelocity.x, JumpForce);
+            
+            animator.SetBool("IsJump", true);
+         
             jumpsound.Play();
+            Debug.Log("JUMP FORCE APPLIED");
+
+            
         }
     }
 
@@ -64,11 +73,24 @@ public class playerCharacter : MonoBehaviour
         {
             isGrounded = true;
         }
+        if (collision.gameObject.CompareTag("powercoin"))
+        {
+            coinManager.Doublecoin();
+            Audiomanager.playpowerup();
+
+        }
+        if(collision.gameObject.CompareTag("Enemy"))
+        {
+            coinManager.GameOver();
+            Audiomanager.EndGame();
+            Audiomanager.stopMusic();
+        }
     }
+
     
     void gameOver()
     {
-        if(transform.position.x < -15 || transform.position.y < - 5)
+        if(transform.position.x < -15 || transform.position.y < - 15)
         {
             
             coinManager.GameOver();

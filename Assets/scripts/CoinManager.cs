@@ -26,11 +26,17 @@ public class CoinManager : MonoBehaviour
     public Sprite pauseSprite;
     public Sprite resumeSprite;
     public GameObject Iconimage;
+
+    public int HighScore;
+    public TextMeshProUGUI HighScoreText;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         cointext.text =  coins.ToString();
         scoretext.text = "score :" + score;
+
+        HighScore = PlayerPrefs.GetInt("HighScore", 0);
+        HighScoreText.text = "HighScore : " +HighScore;
     }
 
     public void AddCoin()
@@ -39,12 +45,29 @@ public class CoinManager : MonoBehaviour
         cointext.text = ":"+coins.ToString();
 
     }
+    public void Doublecoin()
+    {
+        coins += 2;
+        cointext.text = ":"+coins.ToString();
+        if (coins >= 100)
+        {
+            coins += 8 ;
+            cointext.text = ":" + coins.ToString();
+        }
+    }
 
     // Update is called once per frame
     void Update()
     {
         if(gameOver || gamePaused)
         return;
+
+        if(score > HighScore)
+        {
+            HighScore = score;
+            PlayerPrefs.SetInt("HighScore", HighScore);
+            HighScoreText.text = "HighScore:" + HighScore;
+        } 
         scoreTimer += Time.deltaTime;
 
         if(scoreTimer >= 0.5)

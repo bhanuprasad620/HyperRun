@@ -5,6 +5,7 @@ public class audiomanager : MonoBehaviour
     public AudioSource sfxsound;
     public AudioClip coinsound;
     public AudioClip gameover;
+    public AudioClip powerup;
     public float gameovervolume = 0.3f;
     public AudioSource stopmusic;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -13,6 +14,10 @@ public class audiomanager : MonoBehaviour
     {
         
         sfxsound.PlayOneShot(coinsound );
+    }
+    public void playpowerup()
+    {
+        sfxsound.PlayOneShot(powerup);
     }
     public void EndGame()
     {

@@ -11,6 +11,7 @@ public class positions : MonoBehaviour
     void Start()
     {
         _manager= FindFirstObjectByType<CoinManager>();
+      
     }
 
     // Update is called once per frame
@@ -23,6 +24,17 @@ public class positions : MonoBehaviour
         if (transform.position.x < -150f)
         {
             Destroy(gameObject);
+        }
+       
+    }
+
+    public void moveSpeed()
+    {
+        if(speed<15f)
+        {
+            speed = 15f;
+           
+            Debug.Log("Speed increased to: " + speed);
         }
     }
 }

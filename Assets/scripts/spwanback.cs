@@ -14,7 +14,7 @@ public class spwanback : MonoBehaviour
         firstSwpan();
         secondSwpan();
         secondSwpan();
-        player.transform.position = new Vector3(-3, 0, 0);
+        player.transform.position = new Vector3(-2.5f, -3, 0);
         Instantiate(player);
     }
 
